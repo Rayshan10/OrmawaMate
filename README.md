@@ -38,6 +38,20 @@ Secara garis besar, alur chatbot terdiri dari dua bagian:
 1. **Pemrosesan dokumen:** dokumen dibaca, teks dipecah menjadi beberapa bagian, kemudian dibuat embeddings dan disimpan di Astra DB.
 2. **Proses tanya jawab:** pertanyaan pengguna digunakan untuk mencari konteks yang relevan. Konteks dan pertanyaan diteruskan ke prompt, kemudian diproses oleh model bahasa untuk menghasilkan jawaban.
 
+## Dokumentasi Visual
+
+### 1. Langflow Workflow
+
+Berikut merupakan alur kerja prototipe OrmawaMate yang dibangun menggunakan Langflow. Alur ini mencakup pemrosesan dokumen, pembuatan embeddings, penyimpanan dan pencarian konteks pada Astra DB, serta pembentukan respons menggunakan model bahasa.
+
+![OrmawaMate Langflow Workflow](docs/images/langflow-workflow.png)
+
+### 2. Contoh Percakapan Chatbot
+
+Berikut merupakan contoh interaksi OrmawaMate ketika menjawab pertanyaan mahasiswa mengenai cara mendaftar Program Penguatan Kapasitas Organisasi Kemahasiswaan (PPK Ormawa).
+
+![OrmawaMate Chatbot Conversation](docs/images/chatbot-conversation.png)
+
 ## Struktur Repository
 
 ```text
